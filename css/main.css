@@ -1000,16 +1000,22 @@ td, th {
       .primary-btn span {
         padding: 8px 0; } }
   .primary-btn.white {
-    border: 1px solid #90acd1;
+    border: 2px solid #90acd1;
     color: #e45447;
-    background: #fff; }
+    background: #fff;
+    display: block;
+    margin: auto;}
     .primary-btn.white span {
       color: #222222; }
     .primary-btn.white:before {
-      color: #222222; }
+      color: #222222;
+      display: block;
+      margin: auto;
+    }
     .primary-btn.white:hover {
-      background: #90acd1;
-      color: #fff; }
+      background: #e45447;
+      color: #fff;
+    }
       .primary-btn.white:hover span {
         color: #fff; }
 
@@ -2339,11 +2345,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s; }
     .single-work .middle h4 {
-      font-size: 21px;
+      font-size: 16px;
       color: #fff; }
     .single-work .middle .cat {
-      font-size: 15px;
-      color: #fff; }
+      font-size: 11px;
+      color: #fff;
+      text-align: justify; }
   .single-work:hover .thumb .overlay-bg {
     opacity: 0.98; }
   .single-work:hover .middle {
