@@ -2267,6 +2267,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #About{
   text-align: justify;
 }
+#Guide :hover{
+  color: #90acd1
+}
 
 /*-------- End About Area ------------*/
 /*--------- Start Work Area -------------*/
