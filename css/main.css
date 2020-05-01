@@ -47,7 +47,7 @@ html{
 
 body {
   color: #777777;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.625em;
@@ -2137,7 +2137,9 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 600px !important; } }
 
 .banner-area {
-  background: #90acd1; }
+  background: #90acd1;
+  width: auto;
+  height: 300px;}
 
 .banner-content {
   text-align: left; }
@@ -2262,6 +2264,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     .about-area .primary-btn.white {
       margin-right: 0;
       margin-bottom: 15px; } }
+#About{
+  text-align: justify;
+}
 
 /*-------- End About Area ------------*/
 /*--------- Start Work Area -------------*/
@@ -2354,7 +2359,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-work:hover .thumb .overlay-bg {
     opacity: 0.98; }
   .single-work:hover .middle {
-    opacity: 1; }
+    opacity: 1;
+  }
+
+  .single-work:hover{
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 
 /*--------- End Work Area -------------*/
 .job-area.offwhite {
@@ -2391,7 +2405,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 18px; } }
   @media (max-width: 576px) {
     .single-job .bottom-sec {
-      margin-top: 30px; } }
+      margin-top: 30px; }}
   .single-job .primary-btn {
     padding: 0 28px;
     background: #fff;
@@ -2407,7 +2421,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-job:hover {
     background: #90acd1;
     cursor: pointer;
-    color: #fff; }
+    color: #fff;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+   }
     .single-job:hover .top-left h4 {
       color: #fff; }
 
@@ -2945,7 +2965,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 20px 0px;
     font-weight: 700; }
   .post-content-area .single-post .excert {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: justify; }
   .post-content-area .single-post .primary-btn {
     background: #fff !important;
     color: #222222;
