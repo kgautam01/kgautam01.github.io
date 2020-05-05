@@ -2437,17 +2437,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   .service-area.white {
     background: #fff; }
   .service-area .col-lg-3.col-md-6:nth-child(1) .single-service {
-    background: #e2a599; }
+    background: #90acd1;
+    height: 270px;
+    text-align: center; }
   .service-area .col-lg-3.col-md-6:nth-child(2) .single-service {
-    background: #715f69; }
+    background: #715f69;
+    height: 270px;
+    text-align: center;  }
   .service-area .col-lg-3.col-md-6:nth-child(3) .single-service {
-    background: #e45447; }
+    background: #e45447;
+    height: 270px;
+    text-align: center;  }
   .service-area .col-lg-3.col-md-6:nth-child(4) .single-service {
-    background: #90acd1; }
+    background: #e2a599;
+    height: 270px;
+    text-align: center;  }
 
 .single-service {
   color: #fff;
-  padding: 60px 30px;
+  padding: 40px 30px;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -3364,8 +3372,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   background: #fafaff;
   border: 1px solid #eee;
-  padding: 50px 20px;
-  margin-top: 50px; }
+  padding: 20px 20px;
+  margin-top: 50px;}
   .comment-form h4 {
     text-align: center;
     margin-bottom: 50px; }
