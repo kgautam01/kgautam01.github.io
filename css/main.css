@@ -1945,15 +1945,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li:hover > ul,
 .nav-menu li.sfHover > ul {
-  display: block; }
+  display: block;
+  vis
+}
 
 .nav-menu ul ul {
   top: 0;
   left: 100%; }
 
 .nav-menu ul li {
-  min-width: 180px;
-  text-align: left; }
+  min-width: 80px;
+  text-align: left;
+}
 
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
