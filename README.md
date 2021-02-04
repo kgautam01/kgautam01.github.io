@@ -10,12 +10,6 @@
 ### About me
 <p align="left"> <samp>Hi, My name is Franco Navarro. I am a telecommunications engineering university student from the Pontificia Universidad Católica del Perú focused on cloud computing and web services. Besides infrastructure and programming building, I enjoy traveling and watching movies.
 From very early on in my life, I started to fall in love with technology. This love has helped me develop a very good technological mindset, and given me the curiosity to learn more.
-<!-- 
-<p align="left"> <samp>
-- 👨🏽‍💻 I’m currently working on [Fandango](https://www.fandango.lat);<br>
-- 🌱 I’m currently learning data migration and multi plataform;<br>
-- 🔭 I’m looking to collaborate on any open source project🤝;<br>
-- 💬 Ask me about anything especially about tech, movies, series I am happy to help;<br> -->
 
 ### Languages and Tools:
 
@@ -29,23 +23,9 @@ You can use this api: https://github.com/anuraghazra/github-readme-stats
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
   -->
-  <img width="10%" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/packerio/packerio-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/ansible/ansible-ar21.svg">
   <br />
   <img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/jenkins/jenkins-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg">
-  <br />
-  <img width="10%" src="https://www.vectorlogo.zone/logos/apache/apache-official.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/nginx/nginx-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/wordpress/wordpress-ar21.svg">
-  <br />
-  <img width="10%" src="https://www.vectorlogo.zone/logos/debian/debian-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/centos/centos-ar21.svg">
-	<img width="10%" src="https://www.vectorlogo.zone/logos/redhat/redhat-ar21.svg">
+  	<img width="10%" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg">
 	<img width="10%" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg">
+  <br />	
 </p>
