@@ -801,6 +801,7 @@ td, th {
 .alert-msg {
   color: #008000; }
 #hi{
+  font-weight: 700;
   margin-top: 100px;
   margin-bottom: auto;
 }
@@ -1946,7 +1947,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li:hover > ul,
 .nav-menu li.sfHover > ul {
   display: block;
-  vis
 }
 
 .nav-menu ul ul {
@@ -2128,12 +2128,67 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
-.home-banner-area {
-  background: url(../img/banner-bg.jpg) center;
-  background-size: cover; }
-  @media (max-width: 769px) {
-    .home-banner-area .fullscreen {
-      height: 600px !important; } }
+
+/* .home-banner-area {
+  background: url(../img/IMG1.jpg) left;
+  /* background-position: center center; */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  /* backface-visibility: hidden; */
+  /* animation: slideBg 12s linear infinite 0s; */
+  /* animation-timing-function: ease-in; */
+  /* background-image: url(/img/IMG1.jpg); */
+  /* width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: boom 4s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url(/img/IMG1.jpg); */
+ /* } */
+
+.home-banner-area{
+  /* background-position: 50% 50%; */
+  background: url(../img/IMG7.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  animation: slideBg 30s infinite 0s;
+  animation-delay: 4s;
+  /* animation-timing-function: ease-in-out; */
+}
+
+@media (max-width: 769px) {
+  .home-banner-area .fullscreen {
+    height: 600px !important; } }
+
+@keyframes slideBg {
+  0% {
+    background-image: url(../img/IMG7.jpg);
+  }
+
+  20% {
+    background-image: url(../img/IMG3.jpg);
+  }
+
+  40% {
+    background-image: url(../img/IMG4.jpg);
+  }
+
+  60%{
+    background-image: url(../img/IMG5.jpg);
+  }
+
+  80%{
+    background-image: url(../img/IMG6.jpg);
+  }
+
+  100%{
+    background-image: url(../img/IMG7.jpg);
+  }
+}
 
 .banner-area {
   background: #90acd1;
@@ -2141,10 +2196,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 200px;}
 
 .banner-content {
+  position: relative;
+  right: 100px;
   text-align: left; }
   .banner-content h1 {
     font-size: 60px;
     font-weight: 700;
+    color: white;
     line-height: 66px;
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -2176,9 +2234,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       border-right: 0px solid transparent;
       border-top: 24px solid #90acd1; }
   .banner-content .designation {
-    max-width: 390px;
+    max-width: 500px;
     font-size: 30px;
-    font-weight: 400;
+    color: white;
+    font-weight: 700;
     line-height: 42px; }
     @media (max-width: 576px) {
       .banner-content .designation {
@@ -2190,13 +2249,25 @@ body.mobile-nav-active #mobile-nav-toggle {
       
 .iithimg{
   display: block;
+  margin-top: 40px;
+  margin-bottom: auto;
+  background:rgba(156, 156, 156, 0.7);
+}
+
+.about-img{
+  display: block;
+  position: relative;
   margin-top: auto;
   margin-bottom: auto;
+  width: auto;
+  height: auto;
 }
+
 .banner-img {
   text-align: right;
   position: relative;
-  left: 160px; }
+  bottom:200px;
+  left: 300px; }
   @media (max-width: 1480px) {
     .banner-img {
       left: 0px; } }
@@ -2270,8 +2341,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #Guide :hover{
   color: #90acd1
 }
-
 /*-------- End About Area ------------*/
+
 /*--------- Start Work Area -------------*/
 .work-area {
   background: #f9f9ff; }
@@ -2697,7 +2768,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin-top: 100px; } }
   .about-content h1 {
     font-size: 60px;
-    font-weight: 700; }
+    font-weight: 700;
+  }
     @media (max-width: 767px) {
       .about-content h1 {
         font-size: 35px; } }
@@ -3466,3 +3538,17 @@ body.mobile-nav-active #mobile-nav-toggle {
       color: #e45447; }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/* slideshow */
+/* #SLIDE_BG {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 4s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url(/img/IMG1.jpg);
+}
