@@ -2160,21 +2160,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   /* animation-timing-function: ease-in-out; */
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
   .home-banner-area .fullscreen {
-    height: 600px !important; } }
+    height: 600px !important; } } */
 
 @keyframes slideBg {
   0% {
     background-image: url(../img/IMG7.jpg);
+    /* transition: background-image 2s; */
   }
 
   20% {
     background-image: url(../img/IMG3.jpg);
+    /* transition: background-image 2s; */
   }
 
   40% {
     background-image: url(../img/IMG4.jpg);
+    /* transition: background-image 2s; */
   }
 
   60%{
@@ -2197,7 +2200,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content {
   position: relative;
-  right: 100px;
+  /* right: auto; */
   text-align: left; }
   .banner-content h1 {
     font-size: 60px;
@@ -2267,7 +2270,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: right;
   position: relative;
   bottom:200px;
-  left: 300px; }
+  left: 100px; }
   @media (max-width: 1480px) {
     .banner-img {
       left: 0px; } }
