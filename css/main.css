@@ -2156,7 +2156,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   backface-visibility: hidden;
   animation: slideBg 30s infinite 0s;
-  animation-delay: 4s;
+  animation-delay: 1s;
+  /* background-image: url(../img/IMG7.jpg); */
   /* animation-timing-function: ease-in-out; */
 }
 
@@ -2165,33 +2166,36 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 600px !important; } } */
 
 @keyframes slideBg {
-  0% {
-    background-image: url(../img/IMG7.jpg);
+  10% {
+    background-image: url(../img/IMG7.jpg), url(../img/IMG3.jpg);
+    /* transform: scale(1.1) rotate(3deg); */
+  }
+
+  30% {
+    background-image: url(../img/IMG3.jpg), url(../img/IMG4.jpg);
+    /* transform: scale(1.2); */
     /* transition: background-image 2s; */
   }
 
-  20% {
-    background-image: url(../img/IMG3.jpg);
+  50% {
+    background-image: url(../img/IMG4.jpg), url(../img/IMG5.jpg)
     /* transition: background-image 2s; */
   }
 
-  40% {
-    background-image: url(../img/IMG4.jpg);
-    /* transition: background-image 2s; */
+  70%{
+    background-image: url(../img/IMG5.jpg), url(../img/IMG6.jpg)
   }
 
-  60%{
-    background-image: url(../img/IMG5.jpg);
-  }
-
-  80%{
-    background-image: url(../img/IMG6.jpg);
-  }
-
-  100%{
-    background-image: url(../img/IMG7.jpg);
+  90%{
+    background-image: url(../img/IMG6.jpg)
   }
 }
+
+/* @keyframes zoom {
+  100%{
+    transform: rotate(30deg);
+  }
+} */
 
 .banner-area {
   background: #90acd1;
