@@ -2272,8 +2272,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-img {
   text-align: right;
-  position: relative;
-  bottom:200px;
+  position: center;
+  bottom: 20%;
   left: 100px; }
   @media (max-width: 1480px) {
     .banner-img {
